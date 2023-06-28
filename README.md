@@ -1,2 +1,3 @@
-## N2 - AV07 - Introdução à programação (Prova Presencial): 
+## N2 - AV07 - IntroduÃ§Ã£o Ã  programaÃ§Ã£o (Prova Presencial): 
 * Menu com gerador e verificador de CPF e CNPJ
+* Alunos: Hiel Saraiva e Conrado Einstein
