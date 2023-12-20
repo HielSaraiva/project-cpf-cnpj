@@ -12,7 +12,7 @@ int valida_CPF (char cpf[]){
 		}
 	}
 	
-	//Primeiro dígito significativo:
+	//Primeiro digito significativo:
 	int soma1 = 0, i1 = 10 , res1, ver1;
 	for(cont1 = 0; cont1 <= 8; cont1 += 1) {
 		soma1 += vetor_contador[cont1]*i1;
@@ -27,7 +27,7 @@ int valida_CPF (char cpf[]){
 	}
 	vetor_contador[9] = ver1;
 	
-	//Segundo dígito significativo:
+	//Segundo digito significativo:
 	int soma2 = 0, i2 = 11, res2 , ver2;
 	for(cont1 = 0; cont1 <= 9; cont1 += 1) {
 		soma2 += vetor_contador[cont1]*i2;
@@ -67,7 +67,7 @@ int valida_CNPJ (char cnpj[]){
 		}
 	}
 	
-	//Primeiro dígito significativo:
+	//Primeiro digito significativo:
 	int soma1 = 0, i1 = 5, res1, ver1;
 	for(cont1 = 0; cont1 <= 11; cont1 += 1) {
 		soma1 += vetor_contador[cont1]*i1;
@@ -85,7 +85,7 @@ int valida_CNPJ (char cnpj[]){
 	}
 	vetor_contador[12] = ver1;
 	
-	//Segundo dígito significativo:
+	//Segundo digito significativo:
 	int soma2 = 0, i2 = 6, res2 , ver2;
 	for(cont1 = 0; cont1 <= 12; cont1 += 1) {
 		soma2 += vetor_contador[cont1]*i2;

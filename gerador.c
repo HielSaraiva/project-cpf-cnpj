@@ -13,7 +13,7 @@ void gerador_CPF(void) {
 		vetor_contador[cont1] = n;
 	}
 	
-	//Primeiro dígito significativo:
+	//Primeiro digito significativo:
 	int soma1 = 0, i1 = 10, res1, ver1;
 	
 	for(cont1 = 0; cont1 <= 8; cont1 += 1) {
@@ -29,7 +29,7 @@ void gerador_CPF(void) {
 	}
 	vetor_contador[9] = ver1;
 	
-	//Segundo dígito significativo:
+	//Segundo digito significativo:
 	int soma2 = 0, i2 = 11, res2 , ver2;
 	
 	for(cont1 = 0; cont1 <= 9; cont1 += 1) {
@@ -45,7 +45,7 @@ void gerador_CPF(void) {
 	}
 	vetor_contador[10] = ver2;
 	
-	printf("\nO CPF criado é: ");
+	printf("\nO CPF criado foi: ");
 	for(cont1 = 0 ; cont1 <= 8 ; cont1 += 1){
 		if((cont1%3 == 0) && (cont1 != 0)){
 			printf(".");
@@ -64,7 +64,7 @@ void gerador_CNPJ(void) {
 		vetor_contador[cont1] = n;
 	}
 	
-	//Primeiro dígito significativo:
+	//Primeiro digito significativo:
 	int soma1 = 0, i1 = 5, res1, ver1;
 	
 	for(cont1 = 0; cont1 <= 11; cont1 += 1) {
@@ -83,7 +83,7 @@ void gerador_CNPJ(void) {
 	}
 	vetor_contador[12] = ver1;
 	
-	//Segundo dígito significativo:
+	//Segundo digito significativo:
 	int soma2 = 0, i2 = 6, res2 , ver2;
 	
 	for(cont1 = 0; cont1 <= 12; cont1 += 1) {
@@ -102,7 +102,7 @@ void gerador_CNPJ(void) {
 	}
 	vetor_contador[13] = ver2;
 	
-	printf("\nO CNPJ criado é: %d%d.", vetor_contador[0], vetor_contador[1]);
+	printf("\nO CNPJ criado foi: %d%d.", vetor_contador[0], vetor_contador[1]);
 	for(cont1 = 2; cont1 <= 7; cont1 += 1) {
 		if(cont1%5 == 0) {
 			printf(".");

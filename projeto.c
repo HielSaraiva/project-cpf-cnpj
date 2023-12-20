@@ -16,7 +16,7 @@ int main()
 	
 	do {
 		printf("\nBem-vindo ao validador de CPF/CNPJ do Conrado e do Hiel\n\n");
-		printf("1- Verifica se um dado CPF ou CNPJ È v·lido ou n„o\n");
+		printf("1- Verifica se um dado CPF ou CNPJ √© v√°lido ou n√£o\n");
 	 	printf("2- Gera um CPF\n");
 	 	printf("3- Gera um CNPJ\n");
 		printf("0- Para sair do programa\n\n");
@@ -24,7 +24,7 @@ int main()
 		
 		switch (opc) {
 			case 0:
-				printf("VocÍ escolheu sair....\n\n");
+				printf("Voc√™ escolheu sair....\n\n");
 				break;
 			case 1:
 				printf("\nDigite um CPF ou CNPJ usando a respectiva forma(XXX.XXX.XXX-XX OU XX.XXX.XXX/XXXX-XX): ");
@@ -32,15 +32,15 @@ int main()
 				scanf("%s", v);
 				if(strlen(v) == 14) {
 					if(valida_CPF(v) == 1) {
-						printf("O CPF È v·lido!!\n");
+						printf("O CPF √© v√°lido!!\n");
 					} else {
-						printf("O CPF È inv·lido!!\n");
+						printf("O CPF √© inv√°lido!!\n");
 					}
 				} else if(strlen(v) == 18) {
 					if(valida_CNPJ(v) == 1) {
-						printf("O CNPJ È v·lido!!\n");
+						printf("O CNPJ √© v√°lido!!\n");
 					} else {
-						printf("O CNPJ È inv·lido!!\n");
+						printf("O CNPJ √© inv√°lido!!\n");
 					}
 				}
 				break;
