@@ -20,3 +20,14 @@ clang [nome_do_arquivo1].o [nome_do_arquivo2].o
 
 ./a.out
 ``````
+
+### Observações interessantes:
+#### Criar arquivo executável UNIX:
+``````
+gcc -fasm [Nome do Arquivo].c
+``````
+
+#### Criar código em Assembly do código em C:
+``````
+gcc -S [Nome do Arquivo].c
+``````
