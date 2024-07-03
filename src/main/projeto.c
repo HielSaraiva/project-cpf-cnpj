@@ -4,8 +4,8 @@
 #include <locale.h>
 #include <stdlib.h>
 #include <time.h>
-#include "validador.h"
-#include "gerador.h"
+#include "src/headers/validador.h"
+#include "src/headers/gerador.h"
 
 int main()
 {
