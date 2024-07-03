@@ -1,5 +1,4 @@
 build/
 .vscode/
-/CMakeLists.txt
 /cmake-build-debug/
 /build/

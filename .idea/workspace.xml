@@ -9,25 +9,20 @@
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
-  <component name="CMakeRunConfigurationManager">
-    <generated>
-      <config projectName="project_cpf_cnpj" targetName="project_cpf_cnpj" />
-    </generated>
-  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736c3be4-0037-40db-a26d-9fca97585097" name="Changes" comment="">
+    <list default="true" id="8fb5c821-5d5b-4f68-95b8-8b23fb0e47fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_cpf_cnpj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerador.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/gerador.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerador.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/headers/gerador.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/projeto.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validador.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/validador.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validador.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/headers/validador.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +32,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,16 +42,15 @@
     <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2ikKHym0f6JnzjSe3jGjoKTXCwX" />
+  <component name="ProjectId" id="2ikOA4WEjLHvHyfE6TzisCYlhXI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "CMake Application.project_cpf_cnpj.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -65,51 +58,23 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/hielsaraiva_/Projects/project_cpf_cnpj",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/headers" />
-      <recent name="$PROJECT_DIR$/src/out" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="project_cpf_cnpj" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_cpf_cnpj" TARGET_NAME="project_cpf_cnpj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project_cpf_cnpj" RUN_TARGET_NAME="project_cpf_cnpj">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="736c3be4-0037-40db-a26d-9fca97585097" name="Changes" comment="" />
-      <created>1720029051016</created>
+      <changelist id="8fb5c821-5d5b-4f68-95b8-8b23fb0e47fe" name="Changes" comment="" />
+      <created>1720030961627</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720029051016</updated>
-      <workItem from="1720029052016" duration="760000" />
+      <updated>1720030961627</updated>
+      <workItem from="1720030962633" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VCPKGProject">
-    <isAutomaticCheckingOnLaunch value="false" />
-    <isAutomaticFoundErrors value="true" />
-    <isAutomaticReloadCMake value="true" />
   </component>
 </project>

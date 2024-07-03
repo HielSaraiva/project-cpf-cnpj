@@ -2,6 +2,9 @@
 * Menu with CPF and CNPJ generator and checker.
 * Students: Hiel Saraiva e Conrado Einstein.
 
+## Project Overview (PT/BR):
+<img src="src/assets/imgs/project_cpf_cnpj.png" alt="Project CPF CNPJ" style="width: 500px">
+
 ## Compile multiple files into the same package in VSCode (macOS):
 
 ### First Option:
