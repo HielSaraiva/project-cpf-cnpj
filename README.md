@@ -4,6 +4,7 @@
 
 1. [General Objective](#general-objective)
 2. [Project Overview](#project-overview)
+   1. [Menu](#menu-pt-br)
 3. [Features](#features)
 4. [Team](#team)
 5. [Compiling Files](#compile-multiple-files-into-the-same-package-in-vscode-macos)
@@ -15,12 +16,13 @@
 
 - This project was developed as part of an Introduction to Programming in-person test. The goal was to create a menu-based application that can generate and validate CPF and CNPJ numbers, following the official Brazilian validation rules.
 
-
 ---
 
 ## Project Overview
 
 - Menu with CPF and CNPJ generator and checker.
+
+### Menu (PT-BR)
 
 <img src="src/assets/imgs/project_cpf_cnpj.png" alt="Project CPF CNPJ" style="width: 500px">
 
